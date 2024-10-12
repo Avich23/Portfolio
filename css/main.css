@@ -1,0 +1,274 @@
+* {
+    box-sizing: border-box;
+}
+
+html {
+    scroll-behavior: smooth;
+}
+
+body {
+    margin: 0;
+    font-family: "Poppins", sans-serif;
+    font-style: normal;
+}
+
+img {
+    max-width: 100%;
+}
+
+.container {
+    max-width: 1110px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+/* header */
+
+.header {
+    position: relative;
+
+    width: 100%;
+    height: 100vh;
+
+    display: flex;
+    flex-direction: column;
+
+    justify-content: center;
+    align-items: center;
+
+    /* background-image: url('./../image/header/header-bg.jpg'); */
+    background-size: cover;
+    background-position: center;
+}
+
+.header-title {
+    font-weight: 900;
+    font-style: normal;
+    margin: 0;
+    color: aqua;
+}
+
+.header-text {
+    font-weight: 700;
+    font-style: italic;
+    font-size: 20px;
+    color:aqua
+}
+
+.header-arrow {
+    position: absolute;
+    bottom: 20px;
+
+    width: 50px;
+    height: 50px;
+}
+
+.header-arrow {
+    transition: transform 0.2s ease-in;
+}
+
+.header-arrow:hover {
+    transform: translateY(-15px);
+}
+
+/* portfolio */
+
+.portfolio {
+    background-image: url(./../image/portfolio/portfolio-bg.png);
+    background-size: cover;
+    background-position: center;
+
+    padding-top: 80px;
+    padding-bottom: 115px;
+
+    
+}
+
+.portfolio-title {
+    margin: 0;
+    margin-bottom: 70px;
+    font-weight: 700;
+    font-style: normal;
+    font-size: 46px;
+    color:aqua;
+
+    text-align: center;
+}
+
+.portfolio-cards-wrapper {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+
+.portfolio-card {
+    background-color: rgb(142, 119, 206);
+    max-width: 540px;
+    margin-bottom: 30px;
+
+    box-shadow: 0px 10px 40px rgb(0, 0, 0);
+    transition: transform 0.2s ease-in;
+}
+
+.portfolio-card:hover {
+    transform: translateY(-15px);
+}
+
+.portfolio-card-link {
+    text-decoration: none;
+    color: black;
+    display: block;
+    padding: 20px;
+    transition: color 0.2s ease-in;
+}
+
+.portfolio-card-link:hover {
+    color: aqua;
+}
+
+.portfolio-card-img {
+    margin-bottom: 20px;
+    width: 500px;
+}
+
+.portfolio-card-title {
+    margin: 0;
+    font-weight: 700;
+    font-style: normal;
+    margin-bottom: 13px;
+    font-size: 30px;
+    line-height: 130%;
+}
+
+.portfolio-card-text {
+    margin: 0;
+    font-size: 16px;
+    line-height: 130%;
+    font-weight: 700;
+    font-style: italic;
+    line-height: 130%;
+}
+
+/* footer */
+
+.footer {
+    background-color: rgb(41, 31, 68);
+    height: 300px;
+}
+
+.footer-row {
+    display: flex;
+    justify-content: space-between;
+
+    padding-top: 40px;
+}
+
+.footer-social-text {
+    font-weight: 700;
+    font-size: 20px;
+    line-height: 130%;
+
+    color:aqua
+}
+
+.footer-social {
+    margin-top: -15px;
+}
+
+.footer-social-icon img {
+    width: 50px;
+    height: 50px;
+}
+
+.github {
+    margin-left: 10px;
+}
+
+.footor-button {
+    display: inline-block;
+    height: 50px;
+    padding: 11px 30px ;
+    text-align: center;
+    margin-left: 75px;
+
+    border: 3px solid aqua;
+    border-radius: 50px;
+
+    color: aqua;
+    text-decoration: none;
+    transition: all 0.2s ease-in;
+}
+
+.footor-button:hover {
+    background-color: aqua;
+    color: rgb(41, 31, 68);
+}
+
+.footer-contacts-text {
+    margin: 15px 0;
+
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 130%;
+    font-style: italic;
+
+    color: rgb(168, 154, 206);
+}
+
+/* Project */
+
+.project {
+    background-image: url(./../image/portfolio/portfolio-bg.png);
+    color: aqua;
+    background-size: cover;
+    padding-top: 80px;
+    padding-bottom: 120px;
+    text-align: center;
+}
+
+.project-header {
+    margin: 0;
+    margin-bottom: 40px;
+    font-weight: 700;
+    font-size: 46px;
+    line-height: 130%;
+}
+
+.project-img {
+    margin-bottom: 70px;
+}
+
+.project-discription {
+    margin-bottom: 60px;
+}
+
+.project-discription p {
+    margin-top: 0;
+    margin-bottom: 15px;
+
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 130%;
+}
+
+.project-discription a {
+    color: rgb(168, 154, 206);
+}
+
+.project-btn {
+    display: inline-block;
+    height: 50px;
+    padding: 11px 30px;
+    text-align: center;
+    
+    border: 3px solid aqua;
+    border-radius: 50px;
+    
+    color: aqua;
+    text-decoration: none;
+    transition: all 0.2s ease-in;
+}
+
+.project-btn:hover {
+    background-color:blue
+}
